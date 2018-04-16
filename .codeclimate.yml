@@ -1,16 +1,15 @@
 engines:
-  structure:
+  pmd:
     enabled: true
+  structure:
+    enabled: false
     channel: java
   duplication:
-    enabled: true
+    enabled: false
     channel: java
     config:
       languages:
         - java
-ratings:
-  paths:
-    - "**.java"
 exclude_paths:
   - "**.js"
   - "**.jsx"
